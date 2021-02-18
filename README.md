@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App]
 <br>
 (1) Node Version: v14.15.5 : Node Environment
+<br>
 (2) NPM: v6.14.11 - Package Manger
 (3) Sass: v5.0.0  - CSS Pre-compiler
 (4) Bootstrap: v4.6.0  -  CSS Frontend Framwork
