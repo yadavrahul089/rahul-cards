@@ -1,6 +1,7 @@
 # Getting Started with Create Rahul Card App
 
 This project was bootstrapped with [Create React App]
+<br>
 (1) Node Version: v14.15.5 : Node Environment
 (2) NPM: v6.14.11 - Package Manger
 (3) Sass: v5.0.0  - CSS Pre-compiler
