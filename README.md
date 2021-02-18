@@ -1,4 +1,4 @@
-# Getting Started with Create Rahul Card App
+# Getting Started with Rahul Resposive-Cards App
 
 This project was bootstrapped with [Create React App] <b>Accelerator</b>
 <br>
