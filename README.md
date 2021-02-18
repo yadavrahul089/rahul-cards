@@ -1,6 +1,6 @@
 # Getting Started with Create Rahul Card App
 
-This project was bootstrapped with [Create React App]
+This project was bootstrapped with [Create React App] <b>Accelerator</b>
 <br>
 (1)<b>Node Version</b>: v14.15.5 - <b>Node Environment</b>
 <br>
