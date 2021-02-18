@@ -1,0 +1,73 @@
+//SASS Variables: Importing the variables Scss file
+@import "../sass/variables.scss";
+
+//SASS Rules :Defined Nested Rules and  their properties
+.card-container {
+    max-width: 1024px !important;
+
+    .row {
+        padding-top: 6rem;
+
+        .card-dimensions {
+            padding: 1rem;
+
+            .card {
+                width: 20em;
+
+                &:hover {
+                    box-shadow: 5px 10px 20px 1px $card-hover-color !important;
+                    transition: 0.2s;
+                }
+
+                .overflow {
+                    overflow: hidden;
+
+                    .card-img-top {
+                        -moz-transform: $card-img-scale;
+                        -ms-transform: $card-img-scale;
+                        -o-transform: $card-img-scale;
+                        transform: $card-img-scale;
+                    }
+                    .card-img-top:hover {
+                        transform: $card-img-hover-scale;
+                        -moz-transform: $card-img-hover-scale;
+                        -ms-transform: $card-img-hover-scale;
+                        -o-transform: $card-img-hover-scale;
+                        transform: $card-img-hover-scale;
+                        transition: 0.9s;
+                    }
+                }
+
+                .card-body {
+                    padding: 3em 0 !important;
+
+                    .card-text {
+                        font-size: 1.5rem;
+                        padding: 0.6rem;
+                        text-align: left;
+                        font-weight: 800 !important;
+                        margin-bottom: 0 !important;
+                        line-height: 1.9rem !important;
+                        letter-spacing: normal !important;
+                        padding-top: 0.12rem !important;
+                        padding-bottom: 0.12rem !important;
+                        color: rgb(72, 72, 72) !important;
+                    }
+                    .card-title {
+                        padding-left: $card-padding;
+                        font-weight: 800;
+                        text-align: $card-content-alignment;
+                    }
+                    .card-location {
+                        padding-left: $card-padding;
+                        font-weight: 600;
+                        text-align: $card-content-alignment;
+                    }
+                    .card-details {
+                        margin-top: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
